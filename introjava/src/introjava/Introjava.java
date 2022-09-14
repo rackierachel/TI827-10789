@@ -45,7 +45,14 @@ public class Introjava {
      }
 
     private static void convertePesos() {
-        
+        float peso;
+       System.out.println("Insira peso");
+       peso = ler.nextFloat();
+       System.out.println(peso+" (m) equivale a:\n"+
+                            +(peso*10)+" (g)\n"+
+                            +(peso*100)+" (dg)\n"+
+                            +(peso*1000)+ "(dg)\n"+
+                            +(peso/1000)+ "(Ton)");
     }
 
     private static void converteMoedas() {
